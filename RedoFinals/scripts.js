@@ -8,6 +8,10 @@ function toggler() {
     }
 }
 
+function hide() {
+    x.style.display = "none";
+}
+
 const prefix = "#set-color-";
 
 document.querySelector("#menuItems").addEventListener("click", function (event) {
@@ -21,6 +25,8 @@ document.querySelector("#menuItems").addEventListener("click", function (event) 
         document.body.style.backgroundColor = color;
 
         document.querySelector(".color").textContent = color;
+        
+        event.hide();
 
         //event.preventDefault();
 
@@ -28,8 +34,6 @@ document.querySelector("#menuItems").addEventListener("click", function (event) 
 });
 
 
-document.getElementById("menuItems").addEventListener("onselect", function (event) {
-    closeNav()
-});
+
 
 
