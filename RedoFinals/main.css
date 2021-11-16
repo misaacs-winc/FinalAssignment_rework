@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    background: transparent;
+    color: #aaa
+  }
+
+
+/* Style the navigation menu */
+.navBar {
+    overflow: hidden;
+    background-color: inherit;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .navBar #menuItems {
+    display: none;
+    float: right;
+    min-width: 25%;
+  }  
+
+  /* navigation links */
+  .navBar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* hamburger menu */
+  .navBar a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* grey background color on mouse-over */
+  .navBar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+/* active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* set background for Menu items */
+.sky-blue {
+  background-color: skyblue;
+  border-bottom-right-radius: 0.3em;
+  border-bottom-style: solid;
+}
+  
+.pink {
+  background-color:Pink;
+  border-bottom-right-radius: 0.3em;
+  border-bottom-style: solid;
+}
+  
+.teal {
+  background-color: teal;
+  border-bottom-right-radius: 0.3em;
+  border-bottom-style: solid;
+}
+  
+.turquoise {
+  background-color: turquoise;
+  border-bottom-right-radius: 0.3em;
+  border-bottom-style: solid;
+}
+  
+.tomato {
+  background-color: tomato;
+  border-bottom-right-radius: 0.3em;
+  border-bottom-style: solid;
+}
+
+/* text content */
+.info {
+  text-align: center;
+  background-color: inherit;
+  padding: 50px 36px;
+  margin-top: 40px;
+  text-decoration: none;
+  display: -moz-popup;
+  color: snow;
+}
+  
+h1 {
+  font-weight: 200;
+  margin: 0.4em 0;
+  font-size: 3.5em
+}
+  

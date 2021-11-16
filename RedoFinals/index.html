@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Hamburger Menu</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="scripts.js"></script>
+</head>
+
+<body>
+    <!-- Top Navigation Menu -->
+    <div class="navBar">
+        <a href="#home" class="active">JS Hamburger Menu</a>
+
+        <div id="menuItems">
+            <a class="sky-blue" href="#set-color-Skyblue">Sky Blue</a>
+            <a class="teal" href="#set-color-Teal">Teal</a>
+            <a class="pink" href="#set-color-Pink">Pink</a>
+            <a class="tomato" href="#set-color-Tomato">Tomato</a>
+            <a class="turquoise" href="#set-color-Turquoise">Turquoise</a>
+        </div>
+
+        <!-- "Toggle the navigation links with the "Hamburger menu" / "Bar icon" -->
+        <a href="javascript:void(0);" class="icon" onclick="toggler()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+    </div>
+    <div class="info">
+        <h1>The Background color is now <span class="color">(the original background)</span></h1>
+        <p>*Select your preferred background color from the menu..</p>
+    </div>
+
+</body>
+
+</html>
